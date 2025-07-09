@@ -37,7 +37,7 @@ if not user_input.isdigit():
     sys.exit(1)
 
 # === 2. Format the command ===
-command = f"/addgroup {user_input}"
+command = f"/addgrup {user_input}"
 
 # === 3. Send command to Telegram ===
 with TelegramClient(session_path, api_id, api_hash) as client:

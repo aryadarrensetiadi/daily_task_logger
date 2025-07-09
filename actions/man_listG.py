@@ -30,8 +30,8 @@ should_trigger_start = False
 
 # === Send /listgroup command to Telegram ===
 with TelegramClient(session_path, api_id, api_hash) as client:
-    client.send_message(group_id, "/listgroup", reply_to=topic_id)
-    print("📨 Sent command: /listgroup")
+    client.send_message(group_id, "/listgrup", reply_to=topic_id)
+    print("📨 Sent command: /listgrup")
     print("⏳ Waiting for response...")
 
     time.sleep(5)
